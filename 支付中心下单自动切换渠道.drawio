@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T01:53:19.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CE47Kk4VoNmNZ6ypiv4C" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T02:04:45.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VfrVAD7Jl92a23ZXFjoR" version="20.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,11 +50,44 @@
         <mxCell id="nLl6k8Ohztmbap9x90bs-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nLl6k8Ohztmbap9x90bs-18" target="nLl6k8Ohztmbap9x90bs-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nLl6k8Ohztmbap9x90bs-18" value="判断当前渠道调用次数" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nLl6k8Ohztmbap9x90bs-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nLl6k8Ohztmbap9x90bs-21">
+          <mxGeometry x="-0.2375" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nLl6k8Ohztmbap9x90bs-18" target="nLl6k8Ohztmbap9x90bs-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nLl6k8Ohztmbap9x90bs-23">
+          <mxGeometry x="-0.275" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-18" value="判断当前渠道调用次数是否超过指定次数" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLl6k8Ohztmbap9x90bs-20" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nLl6k8Ohztmbap9x90bs-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nLl6k8Ohztmbap9x90bs-20" target="nLl6k8Ohztmbap9x90bs-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-20" value="调用三方接口" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-22" value="直接返回渠道不可用" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nLl6k8Ohztmbap9x90bs-28" target="nLl6k8Ohztmbap9x90bs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-32" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nLl6k8Ohztmbap9x90bs-31">
+          <mxGeometry x="-0.125" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-28" value="判断接口返回结果" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-30" value="返回渠道调用参数" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
