@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T02:27:24.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tRi0FPXyNbFg6Hi72vec" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T02:34:32.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dSmGWJquTdPZskCB5gwt" version="20.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1299" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,6 +95,9 @@
         <mxCell id="nLl6k8Ohztmbap9x90bs-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nLl6k8Ohztmbap9x90bs-44" target="nLl6k8Ohztmbap9x90bs-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nLl6k8Ohztmbap9x90bs-44" target="nLl6k8Ohztmbap9x90bs-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nLl6k8Ohztmbap9x90bs-44" value="记录渠道调用错误数" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="580" y="940" width="120" height="60" as="geometry" />
         </mxCell>
@@ -107,8 +110,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nLl6k8Ohztmbap9x90bs-46" value="根据单位时间错误数超过指定值标记渠道不可用" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="770" y="940" width="120" height="60" as="geometry" />
+        <mxCell id="nLl6k8Ohztmbap9x90bs-46" value="标记当前线程此渠道不可用" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nLl6k8Ohztmbap9x90bs-53" target="nLl6k8Ohztmbap9x90bs-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-53" value="判断错误数是否大于指定值" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nLl6k8Ohztmbap9x90bs-55" value="标记当前商户应用全局渠道不可用" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
