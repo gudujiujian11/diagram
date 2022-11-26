@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T07:23:56.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="a_AW8B5k2g3Xcj8dSpLj" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-26T07:26:15.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LOi-ILPOeuYGfuywOoRk" version="20.6.0" type="github" pages="2">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,6 +141,9 @@
         </mxCell>
         <mxCell id="9TkGGuvB6Vw0x7m4uREP-14" value="多" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="130" y="555" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9TkGGuvB6Vw0x7m4uREP-16" value="一个应用对应多个渠道&lt;br style=&quot;font-size: 16px;&quot;&gt;一个渠道对应多个终端" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="250" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
