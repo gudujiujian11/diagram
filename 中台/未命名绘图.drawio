@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T13:06:29.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wdW8YLn4KKM_SskfYqzY" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-28T13:09:04.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mNyjRqIRWkNfMhtRCC97" version="20.6.0" type="github" pages="3">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -713,6 +713,9 @@
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4LS-h6VyqfhpA7ZItB4B-185" target="4LS-h6VyqfhpA7ZItB4B-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4LS-h6VyqfhpA7ZItB4B-185" target="4LS-h6VyqfhpA7ZItB4B-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-185" value="根据msgId更新mck_msg的msg_status由未发送改为发送成功" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1650" y="500" width="120" height="60" as="geometry" />
         </mxCell>
@@ -736,6 +739,18 @@
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-216" value="更新1条记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1560.0049999999997" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4LS-h6VyqfhpA7ZItB4B-217" target="4LS-h6VyqfhpA7ZItB4B-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-217" value="根据msgSubId更新mck_sub_msg的msg_status由未发送改为发送成功" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-221" value="更新4条记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1560" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-223" value="根据msgSubId更新mck_sub_msg的msg_status由未发送改为发送成功" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
