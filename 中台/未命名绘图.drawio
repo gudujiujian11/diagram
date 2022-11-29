@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T06:13:38.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UIdmdx8rKHgmcGwQ5BQf" version="20.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:18:16.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="q1lQmGaZt0uJ1zjnCsnX" version="20.6.0" type="github" pages="4">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -439,7 +439,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-100" value="推送的渠道及终端" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="260" y="447" width="136" height="60" as="geometry" />
+          <mxGeometry x="250" y="447" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4LS-h6VyqfhpA7ZItB4B-102" target="4LS-h6VyqfhpA7ZItB4B-104">
           <mxGeometry relative="1" as="geometry" />
@@ -660,7 +660,7 @@
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4LS-h6VyqfhpA7ZItB4B-175" target="4LS-h6VyqfhpA7ZItB4B-177">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4LS-h6VyqfhpA7ZItB4B-175" value="根据channelCode获取对应的handler" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-175" value="根据channelCode获取对应的PushHandler" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2885" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4LS-h6VyqfhpA7ZItB4B-177" target="4LS-h6VyqfhpA7ZItB4B-180">
@@ -956,7 +956,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qkOgcWrO7uDrtf6DwOna-35" value="SendChannelMsgEvent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2580" y="242" width="180" height="338" as="geometry">
+          <mxGeometry x="2580" y="240" width="180" height="338" as="geometry">
             <mxRectangle x="2580" y="242" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
