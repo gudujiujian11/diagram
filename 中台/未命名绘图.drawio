@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T05:46:24.456Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Rl4ZvxzCtGqQNpgzPJN-" version="20.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-29T05:55:02.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X5E5mgE523DIDAZ9zkBZ" version="20.6.0" type="github" pages="4">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SAeecm4sXJ2hbzOdQh_d-1" value="举例，向乐桃app发送系统通知消息" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="730" y="450" width="200" height="60" as="geometry" />
+          <mxGeometry x="460" y="630" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
