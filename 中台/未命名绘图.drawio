@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T07:16:58.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ijUYA69AjU3-IqNg8APz" version="20.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-29T07:19:35.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UNmWZ6X7F2Mt8edv30FC" version="20.6.0" type="github" pages="4">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4LS-h6VyqfhpA7ZItB4B-1" value="业务方使用华为渠道/&lt;br&gt;乐课终端账号&lt;br&gt;向一个用户A、用户B&lt;br&gt;发送短信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-1" value="业务方使用华为渠道/&lt;br&gt;乐课终端账号&lt;br&gt;向2个用户A、用户B&lt;br&gt;发送短信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="220" y="140" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4LS-h6VyqfhpA7ZItB4B-3" target="4LS-h6VyqfhpA7ZItB4B-4">
