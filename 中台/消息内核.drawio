@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T09:31:05.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1QkF-gvlMJQXgZpAyKar" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T09:34:00.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oq7yuUFoUE0zMrrA0Umt" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1284,7 +1284,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZyxJebYWC37dQWepqzy2" name="第 4 页">
-    <mxGraphModel dx="295" dy="3008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="3259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1379,7 +1379,7 @@
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="RDkwJcDi17j821RglwJW-19" target="pXs-gNEhqy7eDu4GxDLI-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RDkwJcDi17j821RglwJW-19" value="接收用户超过200，分批处理/每批处理200个" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" parent="1" vertex="1">
+        <mxCell id="RDkwJcDi17j821RglwJW-19" value="单渠道，单终端接收用户超过200，分批处理/每批处理200个" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" parent="1" vertex="1">
           <mxGeometry x="2020" y="-511" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pXs-gNEhqy7eDu4GxDLI-2" target="j7G7YkWmcEPiYKQM14Ll-1" edge="1">
