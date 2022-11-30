@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T09:54:02.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sljKws0pbQCQVlWLaVd-" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T10:02:22.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="B-6iY8a9CgpUyROu0ud2" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1186" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2127,7 +2127,7 @@
         <mxCell id="flcB72di2kosSiCnzXLO-139" value="消息状态" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2026.5" y="-117.20000000000005" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="flcB72di2kosSiCnzXLO-140" value="发送成功" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="flcB72di2kosSiCnzXLO-140" value="发送成功/失败" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3500" y="9.75" width="57" height="57" as="geometry" />
         </mxCell>
         <mxCell id="flcB72di2kosSiCnzXLO-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="flcB72di2kosSiCnzXLO-142" target="flcB72di2kosSiCnzXLO-140" edge="1">
