@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T06:14:33.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oQnlWgN4uCWiG7cAR7wm" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T06:25:22.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="13CaLQWk2qxrZvS4FGa2" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -704,13 +704,13 @@
           <mxGeometry x="2885" y="1022.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-189" value="未发送" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1836.5" y="685" width="57" height="57" as="geometry" />
+          <mxGeometry x="1826.5" y="785" width="57" height="57" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4LS-h6VyqfhpA7ZItB4B-206" target="4LS-h6VyqfhpA7ZItB4B-189" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-206" value="消息状态" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1830" y="630" width="70" height="30" as="geometry" />
+          <mxGeometry x="1820" y="730" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-211" value="发送成功" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3050" y="878" width="57" height="57" as="geometry" />
@@ -740,7 +740,7 @@
             <mxPoint x="3450" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4LS-h6VyqfhpA7ZItB4B-223" value="根据msgSubId更新mck_sub_msg的msg_status由未发送改为发送成功" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="4LS-h6VyqfhpA7ZItB4B-223" value="根据msgUserId更新mck_msg_user的msg_status由未发送改为发送成功" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2885" y="1292.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4LS-h6VyqfhpA7ZItB4B-226" value="更新2条记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
@@ -1083,11 +1083,72 @@
         <mxCell id="9kGlHtgVQhcr1QL84pts-3" value="此处发送异步消息，同时监听发送结果，发送失败重新发送，保证消息不丢失" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1750" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9kGlHtgVQhcr1QL84pts-6" value="定时任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3750" y="100" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFF2CC;" edge="1" parent="1" source="9kGlHtgVQhcr1QL84pts-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3525" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kGlHtgVQhcr1QL84pts-7" value="发送时间&amp;gt;当前时间=5min and 发送状态为未发送的数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3420" y="320" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFF2CC;" edge="1" parent="1" source="ysLZvMm9gwYxQaFr2GLh-1" target="9kGlHtgVQhcr1QL84pts-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-1" value="定时扫描mck_msg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3420" y="200" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="ysLZvMm9gwYxQaFr2GLh-5" target="ysLZvMm9gwYxQaFr2GLh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="ysLZvMm9gwYxQaFr2GLh-9">
+          <mxGeometry x="-0.2523" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-11" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="ysLZvMm9gwYxQaFr2GLh-5" target="ysLZvMm9gwYxQaFr2GLh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-5" value="&lt;font&gt;数据是否为空&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3447.5" y="449" width="155" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-8" value="任务结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3722" y="474" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-10" value="手动执行消费任务（接收保存消息流程&lt;br&gt;）" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3465" y="664" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="ysLZvMm9gwYxQaFr2GLh-13" target="ysLZvMm9gwYxQaFr2GLh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-13" value="定时扫描mck__msg_user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="195" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="ysLZvMm9gwYxQaFr2GLh-14" target="ysLZvMm9gwYxQaFr2GLh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-14" value="发送时间&amp;gt;=系统时间 5min and 发送状态为未发送" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="320" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="ysLZvMm9gwYxQaFr2GLh-16" target="ysLZvMm9gwYxQaFr2GLh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="ysLZvMm9gwYxQaFr2GLh-16" target="ysLZvMm9gwYxQaFr2GLh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-16" value="&lt;font&gt;数据是否为空&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3977.5" y="449" width="155" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ysLZvMm9gwYxQaFr2GLh-19" value="手动执行消费任务&lt;br&gt;（接收发送三方消息流程&lt;br&gt;）" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3995" y="664" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ZyxJebYWC37dQWepqzy2" name="第 4 页">
-    <mxGraphModel dx="3711" dy="3566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2888" dy="3075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
