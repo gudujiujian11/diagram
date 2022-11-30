@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T06:25:22.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="13CaLQWk2qxrZvS4FGa2" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T06:26:40.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fEoAXADYzOizxJ-zzQ_9" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1363,6 +1363,9 @@
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-35" value="缺点" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
           <mxGeometry x="2340" y="-620" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="FkOjdFpVHaQJGn2fkqma-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="pXs-gNEhqy7eDu4GxDLI-37" target="FkOjdFpVHaQJGn2fkqma-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-37" value="依赖broker的可靠性&lt;br&gt;业务调用mq需要监听结果，进行错误补偿" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2460" y="-630" width="140" height="60" as="geometry" />
         </mxCell>
@@ -1381,13 +1384,19 @@
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pXs-gNEhqy7eDu4GxDLI-46" target="pXs-gNEhqy7eDu4GxDLI-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FkOjdFpVHaQJGn2fkqma-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="pXs-gNEhqy7eDu4GxDLI-46" target="FkOjdFpVHaQJGn2fkqma-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-46" value="需要额外考虑分批后的整体性（某个批次提交失败的场景）" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
           <mxGeometry x="2460" y="-437" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-48" value="因为分批次处理是通过发送mq处理，因此只要保证mq消息不丢失，消息一定被消费，即能够保证整体事务最终一致性" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
-          <mxGeometry x="2790" y="-437" width="250" height="74" as="geometry" />
+          <mxGeometry x="2780" y="-494" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pXs-gNEhqy7eDu4GxDLI-50" target="pXs-gNEhqy7eDu4GxDLI-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjdFpVHaQJGn2fkqma-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;" edge="1" parent="1" source="pXs-gNEhqy7eDu4GxDLI-50" target="FkOjdFpVHaQJGn2fkqma-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-50" value="增加定时任务" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
@@ -1397,13 +1406,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-52" value="定时查询mck_msg表的发送时间&amp;gt;当前时间=5min and 发送状态为未发送的数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="-250" width="250" height="74" as="geometry" />
+          <mxGeometry x="2350" y="-324" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-54" value="将查询出的数据手动进行消费处理" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
           <mxGeometry x="2680" y="-250" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Hc7FxZRxU3y98mNcZlAi-32" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#000000;fontColor=#FFF2CC;fillColor=#000000;image=https://img-blog.csdnimg.cn/a3de20254aa44a58bd82f8576f04af0c.png;" vertex="1" parent="1">
           <mxGeometry x="3190" y="-1120" width="520" height="331" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjdFpVHaQJGn2fkqma-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;" edge="1" parent="1" source="FkOjdFpVHaQJGn2fkqma-1" target="pXs-gNEhqy7eDu4GxDLI-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjdFpVHaQJGn2fkqma-1" value="定时查询mck_msg表的发送时间&amp;gt;当前时间=5min and 发送状态为未发送的数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="-170" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjdFpVHaQJGn2fkqma-4" value="同时定时任务作为补偿机制" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="-380" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="FkOjdFpVHaQJGn2fkqma-6" value="定时任务补偿" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="-630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
