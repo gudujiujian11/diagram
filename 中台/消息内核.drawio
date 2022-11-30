@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T03:14:46.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZqRkQXynq_StKE_cY6X6" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T03:26:36.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="52S20MOYJSG5iwDHuuN0" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1381,6 +1381,9 @@
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-54" value="将查询出的数据手动进行消费处理" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
           <mxGeometry x="2690" y="-280" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Hc7FxZRxU3y98mNcZlAi-32" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#000000;fontColor=#FFF2CC;fillColor=#000000;image=https://img-blog.csdnimg.cn/a3de20254aa44a58bd82f8576f04af0c.png;" vertex="1" parent="1">
+          <mxGeometry x="3210" y="-1100" width="520" height="331" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
