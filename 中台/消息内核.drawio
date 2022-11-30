@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T11:25:32.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UglaNMJbCMqOvU7YGDmg" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T12:37:24.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0B7PpzWP7q4ZkAQ89ABV" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1186,7 +1186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QS0a5nMX5RvaGyTpK1Xv-5" value="单渠道、单终端接收用户是否超过200" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="1380" width="140" height="140" as="geometry" />
+          <mxGeometry x="1945" y="1380" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="QS0a5nMX5RvaGyTpK1Xv-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QS0a5nMX5RvaGyTpK1Xv-7" target="QS0a5nMX5RvaGyTpK1Xv-42">
           <mxGeometry relative="1" as="geometry" />
@@ -1270,7 +1270,7 @@
           <mxGeometry x="2150" y="558.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QS0a5nMX5RvaGyTpK1Xv-35" value="直接发送mq" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="1420" width="120" height="60" as="geometry" />
+          <mxGeometry x="2190" y="1405" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QS0a5nMX5RvaGyTpK1Xv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QS0a5nMX5RvaGyTpK1Xv-37" target="QS0a5nMX5RvaGyTpK1Xv-5">
           <mxGeometry relative="1" as="geometry" />
@@ -1329,7 +1329,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZyxJebYWC37dQWepqzy2" name="第 4 页">
-    <mxGraphModel dx="544" dy="3157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="407" dy="3075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
