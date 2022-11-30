@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T03:26:36.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="52S20MOYJSG5iwDHuuN0" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T03:26:57.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y3USet1ghM-yd96hawJl" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1134,7 +1134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZyxJebYWC37dQWepqzy2" name="第 4 页">
-    <mxGraphModel dx="2776" dy="3008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2450" dy="2813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1313,8 +1313,14 @@
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-15" value="判断msgKey标记是否已标记" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2650" y="-978" width="200" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="Hc7FxZRxU3y98mNcZlAi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFF2CC;" edge="1" parent="1" source="pXs-gNEhqy7eDu4GxDLI-18" target="Hc7FxZRxU3y98mNcZlAi-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-18" value="已标记，则直接返回" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2900" y="-1060" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hc7FxZRxU3y98mNcZlAi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFF2CC;" edge="1" parent="1" source="pXs-gNEhqy7eDu4GxDLI-20" target="Hc7FxZRxU3y98mNcZlAi-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-20" value="未标记，处理业务逻辑，同时将msgKe进行标记，过期时间1天" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2900" y="-930" width="200" height="70" as="geometry" />
@@ -1383,7 +1389,7 @@
           <mxGeometry x="2690" y="-280" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Hc7FxZRxU3y98mNcZlAi-32" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;labelBackgroundColor=#000000;fontColor=#FFF2CC;fillColor=#000000;image=https://img-blog.csdnimg.cn/a3de20254aa44a58bd82f8576f04af0c.png;" vertex="1" parent="1">
-          <mxGeometry x="3210" y="-1100" width="520" height="331" as="geometry" />
+          <mxGeometry x="3190" y="-1120" width="520" height="331" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
