@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T11:14:08.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6UISW9Dbrz_hwT2giGDO" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T11:17:28.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="J_crZ-9vH_ahx6c7bnTu" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1329,7 +1329,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZyxJebYWC37dQWepqzy2" name="第 4 页">
-    <mxGraphModel dx="472" dy="3114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="544" dy="3157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1563,11 +1563,14 @@
         <mxCell id="j7G7YkWmcEPiYKQM14Ll-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j7G7YkWmcEPiYKQM14Ll-2" target="j7G7YkWmcEPiYKQM14Ll-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PVXbjEqQI1Xu9nG7kQzL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j7G7YkWmcEPiYKQM14Ll-2" target="PVXbjEqQI1Xu9nG7kQzL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j7G7YkWmcEPiYKQM14Ll-2" value="消费保存消息" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2030" y="-1108.5" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="j7G7YkWmcEPiYKQM14Ll-4" value="msgKey作为唯一约束判断" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2360" y="-1110" width="250" height="73" as="geometry" />
+          <mxGeometry x="2360" y="-1181.5" width="250" height="73" as="geometry" />
         </mxCell>
         <mxCell id="j7G7YkWmcEPiYKQM14Ll-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j7G7YkWmcEPiYKQM14Ll-6" target="j7G7YkWmcEPiYKQM14Ll-8">
           <mxGeometry relative="1" as="geometry" />
@@ -1583,6 +1586,9 @@
         </mxCell>
         <mxCell id="sInUEBODIUBKkm9Zr6tR-1" value="msgUserId取批量用户的第一位+最后一位，避免key值太长，同时也能保证这一批次不会重复消费" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2690" y="-979" width="250" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="PVXbjEqQI1Xu9nG7kQzL-1" value="消息状态是否为未发送" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="-1077" width="250" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
