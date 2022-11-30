@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T03:03:51.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mXwOx-hows9DrFq-hIMn" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-30T03:09:35.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sBcfY312wdP9X7T2bWqQ" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1134,7 +1134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZyxJebYWC37dQWepqzy2" name="第 4 页">
-    <mxGraphModel dx="2340" dy="2747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2776" dy="3008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1381,6 +1381,9 @@
         </mxCell>
         <mxCell id="pXs-gNEhqy7eDu4GxDLI-54" value="将查询出的数据手动进行消费处理" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;" vertex="1" parent="1">
           <mxGeometry x="2690" y="-280" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Hc7FxZRxU3y98mNcZlAi-3" value="@Override&lt;br&gt;public void onMessage(AddMsgMqEvent addMsgMqEvent) {&lt;br&gt;    log.info(&quot;消费event:{}&quot;, JSON.toJSONString(addMsgMqEvent));&lt;br&gt;    log.info(&quot;消息消费msgKey={},type={}&quot;, addMsgMqEvent.getAddExtMsgRequest().getMsgKey(), addMsgMqEvent.getType());&lt;br&gt;    //增加分布式锁，防止重复消费&lt;br&gt;    AddExtMsgRequest addExtMsgRequest = addMsgMqEvent.getAddExtMsgRequest();&lt;br&gt;    String key = addExtMsgRequest.getMsgSource().toString() + addMsgMqEvent.getType().toString() + addExtMsgRequest.getMsgKey();&lt;br&gt;    Lock lock = distributedLock.getLock(MsgLockKeys.CONSUMER_MSG + key);&lt;br&gt;    try {&lt;br&gt;        if (lock.acquire()) {&lt;br&gt;            if (Objects.isNull(CacheLettuceUtils.get(MsgLockKeys.CONSUMER_MSG_ONLY+key))){&lt;br&gt;                NoticeTodo noticeTodo = null;&lt;br&gt;                if (MsgSourceEnum.WORK_ORDER.getCode().equals(addExtMsgRequest.getMsgSource())){&lt;br&gt;                    noticeTodo = tranNoticeTodo(addMsgMqEvent.getAddExtMsgRequest(), addMsgMqEvent.getNow(), addMsgMqEvent.getType());&lt;br&gt;                }&lt;br&gt;                if (Objects.isNull(noticeTodo)){&lt;br&gt;                    noticeTodo = tranCommonNoticeTodo(addMsgMqEvent.getAddExtMsgRequest(), addMsgMqEvent.getNow(), addMsgMqEvent.getType());&lt;br&gt;                }&lt;br&gt;                noticeClient.optNoticeTodo(noticeTodo);&lt;br&gt;                CacheLettuceUtils.set(MsgLockKeys.CONSUMER_MSG_ONLY + key, MsgCst.ONE_DAY,1);&lt;br&gt;            }&lt;br&gt;        }&lt;br&gt;    }finally {&lt;br&gt;        lock.release();&lt;br&gt;    }&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3170" y="-1090" width="600" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
