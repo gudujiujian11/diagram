@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T08:58:10.076Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PZu7sp2JqJVnzTGm-2Er" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-12-01T08:59:39.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6q4sFvSMz1Q_T73mX4RE" version="20.6.0" type="github" pages="5">
   <diagram id="vRfZ3qEj3zfiyP7TUh5Q" name="第 1 页">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1681,10 +1681,10 @@
         <mxCell id="Qi0yj9fkQuQZy3jUIsXL-23" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div&gt;消费阶段采用和生产阶段类似的确认机制来保证消息的可靠传递，客户端从Broker拉取消息后，执行用户的消费业务逻辑，成功后，才会给Broker发送消费确认响应。如果Broker没有收到消费确认响应，下次拉消息的时候还会返回同一条消息，确保消息不会在网络传输过程中丢失，也不会因为客户端在执行消费逻辑中出错导致丢失。&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;align=right;" vertex="1" parent="1">
           <mxGeometry x="2900" y="360" width="520" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Qi0yj9fkQuQZy3jUIsXL-25" value="https://blog.csdn.net/Huangjiazhen711/article/details/127221881" style="whiteSpace=wrap;html=1;align=right;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Qi0yj9fkQuQZy3jUIsXL-25" value="&lt;a href=&quot;https://blog.csdn.net/Huangjiazhen711/article/details/127221881&quot;&gt;https://blog.csdn.net/Huangjiazhen711/article/details/127221881&lt;/a&gt;" style="whiteSpace=wrap;html=1;align=right;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3690" y="200" width="370" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Qi0yj9fkQuQZy3jUIsXL-28" value="https://blog.csdn.net/fuzhongmin05/article/details/105205124" style="whiteSpace=wrap;html=1;align=right;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Qi0yj9fkQuQZy3jUIsXL-28" value="&lt;a href=&quot;https://blog.csdn.net/fuzhongmin05/article/details/105205124&quot;&gt;https://blog.csdn.net/fuzhongmin05/article/details/105205124&lt;/a&gt;" style="whiteSpace=wrap;html=1;align=right;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3690" y="240" width="370" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Qi0yj9fkQuQZy3jUIsXL-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Qi0yj9fkQuQZy3jUIsXL-31" target="Qi0yj9fkQuQZy3jUIsXL-33">
@@ -1705,8 +1705,11 @@
         <mxCell id="Qi0yj9fkQuQZy3jUIsXL-35" value="所以 Redisson 提供了实现了redlock算法的RedissonRedLock，RedissonRedLock 真正解决了单点失败的问题，代价是需要额外的为 RedissonRedLock 搭建Redis环境" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="1988" y="460" width="312" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qi0yj9fkQuQZy3jUIsXL-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Qi0yj9fkQuQZy3jUIsXL-37" target="Qi0yj9fkQuQZy3jUIsXL-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Qi0yj9fkQuQZy3jUIsXL-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qi0yj9fkQuQZy3jUIsXL-37" target="Qi0yj9fkQuQZy3jUIsXL-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2450" y="645" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Qi0yj9fkQuQZy3jUIsXL-41" value="参考链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="Qi0yj9fkQuQZy3jUIsXL-40">
           <mxGeometry relative="1" as="geometry">
@@ -1716,9 +1719,11 @@
         <mxCell id="Qi0yj9fkQuQZy3jUIsXL-37" value="所以，如果业务场景可以容忍这种小概率的错误，则推荐使用 RedissonLock， 如果无法容忍，则推荐使用 RedissonRedLock。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="1990" y="600" width="312" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qi0yj9fkQuQZy3jUIsXL-39" value="http://t.zoukankan.com/huangwentian-p-14622441.html" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="625" width="288" height="40" as="geometry" />
-        </mxCell>
+        <UserObject label="huangwentian-p-14622441.html" link="http://t.zoukankan.com/huangwentian-p-14622441.html" id="Qi0yj9fkQuQZy3jUIsXL-42">
+          <mxCell style="fontStyle=4;rounded=1;overflow=hidden;spacing=10;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="2470" y="625" width="270" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
