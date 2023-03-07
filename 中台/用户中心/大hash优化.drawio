@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T07:10:18.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.7.4" etag="shT106fy24L92M1HkS_1" type="github"><diagram id="QTQ2cztOLprWiP7LUAil">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-07T07:14:07.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.7.4" etag="sG57m7xFxD5qs8S5oDsk" type="github">
+  <diagram id="kLts_IBcZ2HpCh8pD45_" name="第 1 页">
+    <mxGraphModel dx="1159" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J-Pv7_Vkf3YSL0h_WbMz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-Pv7_Vkf3YSL0h_WbMz-3" target="J-Pv7_Vkf3YSL0h_WbMz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Pv7_Vkf3YSL0h_WbMz-3" value="获取缓存用户" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Pv7_Vkf3YSL0h_WbMz-4" value="从map中获取" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Pv7_Vkf3YSL0h_WbMz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-Pv7_Vkf3YSL0h_WbMz-6" target="J-Pv7_Vkf3YSL0h_WbMz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Pv7_Vkf3YSL0h_WbMz-9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-Pv7_Vkf3YSL0h_WbMz-8">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-Pv7_Vkf3YSL0h_WbMz-6" value="判断值是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-Pv7_Vkf3YSL0h_WbMz-7" value="rpc调用获取值" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
