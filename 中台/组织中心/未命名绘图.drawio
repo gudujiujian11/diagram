@@ -1,37 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T03:08:36.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Lk3GVku1FZfVQylbO6lU" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T03:19:02.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_UDbY6Qzf38n0ob7L9Oy" version="21.0.8" type="github">
   <diagram name="第 1 页" id="PpjtCxbF7JhDGXMTzmA-">
     <mxGraphModel dx="1461" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-1" value="组织" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="890" y="325" width="100" height="40" as="geometry" />
+          <mxGeometry x="1220" y="287.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-2" value="应用" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="560" width="100" height="40" as="geometry" />
+          <mxGeometry x="1420" y="522.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-11" target="3sCPTJeTEDTR29Mkuxmm-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-11" value="集成平台" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="890" y="215" width="100" height="40" as="geometry" />
+          <mxGeometry x="1220" y="177.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-11" target="3sCPTJeTEDTR29Mkuxmm-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1150" y="235" as="sourcePoint" />
-            <mxPoint x="1310" y="235" as="targetPoint" />
+            <mxPoint x="1480" y="197.5" as="sourcePoint" />
+            <mxPoint x="1640" y="197.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-13" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-12">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-14" value="功能权限树1-2" style="whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="740" width="100" height="40" as="geometry" />
+          <mxGeometry x="1420" y="702.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-2" target="3sCPTJeTEDTR29Mkuxmm-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1130" y="365" as="sourcePoint" />
-            <mxPoint x="1130" y="525" as="targetPoint" />
+            <mxPoint x="1460" y="327.5" as="sourcePoint" />
+            <mxPoint x="1460" y="487.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-19" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-18">
@@ -93,10 +93,10 @@
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-41" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-1" target="3sCPTJeTEDTR29Mkuxmm-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="910" y="405" as="sourcePoint" />
-            <mxPoint x="1140" y="430" as="targetPoint" />
+            <mxPoint x="1240" y="367.5" as="sourcePoint" />
+            <mxPoint x="1470" y="392.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1140" y="345" />
+              <mxPoint x="1470" y="307.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -104,15 +104,15 @@
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-43" value="岗位" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="710" y="445" width="100" height="40" as="geometry" />
+          <mxGeometry x="1040" y="407.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-52" value="角色" style="whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="890" y="445" width="100" height="40" as="geometry" />
+          <mxGeometry x="1220" y="407.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-1" target="3sCPTJeTEDTR29Mkuxmm-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="420" as="sourcePoint" />
-            <mxPoint x="810" y="420" as="targetPoint" />
+            <mxPoint x="980" y="382.5" as="sourcePoint" />
+            <mxPoint x="1140" y="382.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-58" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-57">
@@ -120,10 +120,10 @@
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-61" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-1" target="3sCPTJeTEDTR29Mkuxmm-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="390" as="sourcePoint" />
-            <mxPoint x="710" y="390" as="targetPoint" />
+            <mxPoint x="880" y="352.5" as="sourcePoint" />
+            <mxPoint x="1040" y="352.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="760" y="345" />
+              <mxPoint x="1090" y="307.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -132,8 +132,8 @@
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-64" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-43" target="3sCPTJeTEDTR29Mkuxmm-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="560" as="sourcePoint" />
-            <mxPoint x="800" y="560" as="targetPoint" />
+            <mxPoint x="970" y="522.5" as="sourcePoint" />
+            <mxPoint x="1130" y="522.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-65" value="M" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-64">
@@ -143,38 +143,38 @@
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-70" value="应用" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="890" y="560" width="100" height="40" as="geometry" />
+          <mxGeometry x="1220" y="522.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-72" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-52" target="3sCPTJeTEDTR29Mkuxmm-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="540" as="sourcePoint" />
-            <mxPoint x="970" y="540" as="targetPoint" />
+            <mxPoint x="1140" y="502.5" as="sourcePoint" />
+            <mxPoint x="1300" y="502.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-73" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-72">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-74" value="功能权限树1-2-3" style="whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="890" y="740" width="100" height="40" as="geometry" />
+          <mxGeometry x="1220" y="702.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-76" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-70" target="3sCPTJeTEDTR29Mkuxmm-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="900" y="620" as="sourcePoint" />
-            <mxPoint x="1060" y="620" as="targetPoint" />
+            <mxPoint x="1230" y="582.5" as="sourcePoint" />
+            <mxPoint x="1390" y="582.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-77" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-76">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-78" value="用户" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="710" y="565" width="100" height="40" as="geometry" />
+          <mxGeometry x="1040" y="527.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-79" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-78" target="3sCPTJeTEDTR29Mkuxmm-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="590" as="sourcePoint" />
-            <mxPoint x="880" y="590" as="targetPoint" />
+            <mxPoint x="1050" y="552.5" as="sourcePoint" />
+            <mxPoint x="1210" y="552.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="760" y="530" />
+              <mxPoint x="1090" y="492.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -182,41 +182,41 @@
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-92" value="功能权限树1-2-3" style="whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="390" y="670" width="100" height="40" as="geometry" />
+          <mxGeometry x="720" y="632.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-94" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-78" target="3sCPTJeTEDTR29Mkuxmm-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="620" as="sourcePoint" />
-            <mxPoint x="770" y="620" as="targetPoint" />
+            <mxPoint x="940" y="582.5" as="sourcePoint" />
+            <mxPoint x="1100" y="582.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="585" />
+              <mxPoint x="770" y="547.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-95" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-94">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3sCPTJeTEDTR29Mkuxmm-96" value="首次绑定根据岗位找到多个角色的功能权限树授予用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3sCPTJeTEDTR29Mkuxmm-94">
+        <mxCell id="3sCPTJeTEDTR29Mkuxmm-96" value="首次绑定/用户变动岗位/用户变动角色/重新获取功能权限树授予用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3sCPTJeTEDTR29Mkuxmm-94">
           <mxGeometry x="0.0911" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-97" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-78" target="3sCPTJeTEDTR29Mkuxmm-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="530" as="sourcePoint" />
-            <mxPoint x="840" y="530" as="targetPoint" />
+            <mxPoint x="1010" y="492.5" as="sourcePoint" />
+            <mxPoint x="1170" y="492.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-98" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-97">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-99" value="功能权限树1-2-4" style="whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="710" y="740" width="100" height="40" as="geometry" />
+          <mxGeometry x="1040" y="702.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-103" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3sCPTJeTEDTR29Mkuxmm-78" target="3sCPTJeTEDTR29Mkuxmm-99">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="660" as="sourcePoint" />
-            <mxPoint x="790" y="660" as="targetPoint" />
+            <mxPoint x="970" y="622.5" as="sourcePoint" />
+            <mxPoint x="1120" y="622.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3sCPTJeTEDTR29Mkuxmm-104" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="3sCPTJeTEDTR29Mkuxmm-103">
