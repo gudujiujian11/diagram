@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T08:08:11.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Os3kvlVPe4uym7o7bn2j" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T08:16:32.653Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="TQxlxx6moEmWrYtPHIGV" version="21.1.1" type="github">
   <diagram name="第 1 页" id="cDu-nd81y8ZBENEwocHq">
     <mxGraphModel dx="1307" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
         <mxCell id="DfRIseQvaOyFvM4dR8Jv-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-47">
           <mxGeometry x="133" y="135" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DfRIseQvaOyFvM4dR8Jv-50" value="1.应用功能分配给组织id/角色id/用户id" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-47" target="DfRIseQvaOyFvM4dR8Jv-49">
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-50" value="1.应用功能分配给组织id" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-47" target="DfRIseQvaOyFvM4dR8Jv-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="142.5" y="115" as="sourcePoint" />
             <Array as="points">
@@ -198,7 +198,7 @@
         <mxCell id="DfRIseQvaOyFvM4dR8Jv-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-53">
           <mxGeometry x="130" y="155" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DfRIseQvaOyFvM4dR8Jv-56" value="3.应用功能id与组织id/角色id/用户id绑定" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-53" target="DfRIseQvaOyFvM4dR8Jv-55">
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-56" value="3.应用功能id集合与组织id绑定" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-53" target="DfRIseQvaOyFvM4dR8Jv-55">
           <mxGeometry x="-0.0093" relative="1" as="geometry">
             <mxPoint x="135" y="135" as="sourcePoint" />
             <Array as="points">
@@ -207,7 +207,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DfRIseQvaOyFvM4dR8Jv-57" value="2.传入权限中心应用id、功能id、组织id/角色id/用户id" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="DfRIseQvaOyFvM4dR8Jv-53">
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-57" value="2.传入权限中心应用id、功能id集合、组织id" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="DfRIseQvaOyFvM4dR8Jv-53">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="2970" y="775" as="sourcePoint" />
             <mxPoint x="3050" y="775" as="targetPoint" />
