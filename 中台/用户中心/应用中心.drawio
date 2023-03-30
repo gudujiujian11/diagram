@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T07:28:46.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rJg8gLAlcCS0UR_MH7cT" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T07:47:37.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="n_HcWAvYY2sQHSd8eB0E" version="21.1.1" type="github">
   <diagram name="第 1 页" id="cDu-nd81y8ZBENEwocHq">
-    <mxGraphModel dx="1242" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1307" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,11 +43,12 @@
           <mxGeometry x="130" y="155" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfRIseQvaOyFvM4dR8Jv-18" value="3.新建应用" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" target="DfRIseQvaOyFvM4dR8Jv-17" parent="DfRIseQvaOyFvM4dR8Jv-7">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0093" relative="1" as="geometry">
             <mxPoint x="135" y="135" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="165" y="165" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DfRIseQvaOyFvM4dR8Jv-12" value="2.将应用入驻到权限中心" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="DfRIseQvaOyFvM4dR8Jv-7">
@@ -60,6 +61,114 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="820" as="sourcePoint" />
             <mxPoint x="210" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-23" value="应用中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="600" width="240" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-23">
+          <mxGeometry x="102.5" y="95" width="35" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-23">
+          <mxGeometry x="133" y="135" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-26" value="1.应用授权组织id" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-23" target="DfRIseQvaOyFvM4dR8Jv-25">
+          <mxGeometry x="-0.0115" relative="1" as="geometry">
+            <mxPoint x="142.5" y="115" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="172.5" y="145" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-29" value="权限中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="600" width="240" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-29">
+          <mxGeometry x="102.5" y="85" width="35" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-29">
+          <mxGeometry x="130" y="155" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-32" value="3.绑定应用id和组织id" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-29" target="DfRIseQvaOyFvM4dR8Jv-31">
+          <mxGeometry x="-0.0093" relative="1" as="geometry">
+            <mxPoint x="135" y="135" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="165" y="165" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-33" value="2.传入权限中心应用id、组织id" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="DfRIseQvaOyFvM4dR8Jv-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1150" y="785" as="sourcePoint" />
+            <mxPoint x="1230" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-34" value="3.应用授权组织成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" source="DfRIseQvaOyFvM4dR8Jv-30">
+          <mxGeometry x="0.0008" relative="1" as="geometry">
+            <mxPoint x="1230" y="835" as="sourcePoint" />
+            <mxPoint x="1150" y="835" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-35" value="应用中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="600" width="240" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-35">
+          <mxGeometry x="102.5" y="95" width="35" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-35">
+          <mxGeometry x="133" y="135" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-38" value="1.应用新增功能菜单" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-35" target="DfRIseQvaOyFvM4dR8Jv-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142.5" y="115" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="172.5" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-35">
+          <mxGeometry x="133" y="300" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-46" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;4.应用中心功能菜单保存与权限中心权限id关联&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="DfRIseQvaOyFvM4dR8Jv-45" parent="DfRIseQvaOyFvM4dR8Jv-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="168" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-39" value="权限中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="600" width="240" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-39">
+          <mxGeometry x="102.5" y="85" width="35" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="DfRIseQvaOyFvM4dR8Jv-39">
+          <mxGeometry x="130" y="155" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-42" value="3.保存应用下功能菜单" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="DfRIseQvaOyFvM4dR8Jv-39" target="DfRIseQvaOyFvM4dR8Jv-41">
+          <mxGeometry x="-0.0093" relative="1" as="geometry">
+            <mxPoint x="135" y="135" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="165" y="165" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-43" value="2.传入权限中心应用id、功能菜单" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="DfRIseQvaOyFvM4dR8Jv-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2110" y="785" as="sourcePoint" />
+            <mxPoint x="2190" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfRIseQvaOyFvM4dR8Jv-44" value="3.应用新增功能菜单完成" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" source="DfRIseQvaOyFvM4dR8Jv-40">
+          <mxGeometry x="0.0008" relative="1" as="geometry">
+            <mxPoint x="2190" y="835" as="sourcePoint" />
+            <mxPoint x="2110" y="835" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
